@@ -6,7 +6,7 @@ import { notFound } from 'next/navigation';
 const genreMap: Record<string, string[]> = {
   Action: ['John Wick', 'Mad Max', 'Gladiator'],
   Comedy: ['Superbad', 'The Mask', 'Step Brothers'],
-  Sci-Fi: ['Interstellar', 'The Matrix', 'Arrival'],
+  "Sci-Fi": ['Interstellar', 'The Matrix', 'Arrival'],
   Drama: ['The Shawshank Redemption', 'Forrest Gump', 'Fight Club'],
 };
 
