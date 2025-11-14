@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Movie } from '../types/movie';
+import type { Movie } from '../types/movie';
 
 type Props = {
   movie: Movie;
